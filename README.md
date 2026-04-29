@@ -1,5 +1,5 @@
 # .dotfiles
-### Modular Unix Configurations | Fedora System Architecture
+### Modular Unix Configurations | Low-Level System Architecture
 
 <div align="left">
   <a href="https://v0-seanvittek.vercel.app">
@@ -10,25 +10,17 @@
   </a>
 </div>
 
-This repository contains my centralized system configurations, designed for performance-optimized environments and low-level system integration.
-
-### Environment Specification
-
-* **Host OS** Fedora Linux
-* **Window Managers** dwm (patched), bspwm, hyprland
-* **Terminal** alacritty
-* **Bar** polybar / waybar
-* **Compositor** picom (X11) / hyprland (Wayland)
+This repository contains centralized configurations for Unix-based environments, focusing on performance optimization and low-level system integration.
 
 ### Repository Structure
 
-The configuration is modularized by environment to allow for hardware-agnostic deployment.
+Configurations are modularized by environment to ensure portability and clean deployment across different hardware.
 
 **dwm**
-Custom C builds featuring patches for memory optimization, pertag, and autostart functionality.
+Custom C builds featuring specific patches for memory optimization, pertag, and autostart functionality.
 
 **hypr**
-High-fidelity Wayland setup utilizing dynamic tiling and optimized compositor settings.
+High-fidelity Wayland configuration utilizing dynamic tiling and optimized compositor parameters.
 
 **bspwm**
 Binary space partitioning configuration focused on efficient X11 workflows.
@@ -42,14 +34,14 @@ Modular status bars for both X11 and Wayland display protocols.
 ### Technical Implementation
 
 **Low-Level Customization**
-My dwm and slstatus setups involve direct C source modification. I prioritize stripping unnecessary modules to maintain a minimal memory footprint while enhancing structural efficiency through custom patching.
+Core components such as dwm and slstatus involve direct C source modification. The priority is stripping unnecessary modules to maintain a minimal memory footprint while enhancing structural efficiency through custom patching.
 
 **Performance Tooling**
-Systems are optimized for speed using minimalist application launchers like rofi and wofi, alongside lightweight daemons like dunst and sxhkd.
+The environment is optimized for speed using minimalist application launchers and lightweight notification daemons to reduce system overhead.
 
 ### Deployment
 
-Each directory mirrors the internal structure of the home folder. Deployment is handled through symlinking to ensure a reproducible environment across different machines.
+Each directory mirrors the internal structure of the home folder. Deployment is handled through symlinking to ensure a reproducible environment.
 
 ```bash
 # Example deployment sequence
