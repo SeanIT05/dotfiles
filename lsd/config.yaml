@@ -1,0 +1,28 @@
+layout: grid
+
+sorting:
+  column: name
+  reverse: false
+  dir-grouping: first
+
+blocks:
+  - permission
+  - user
+  - group
+  - size
+  - date
+  - name
+
+color:
+  theme: default  # built-in color theme with more contrast
+  # other themes: default, dark, Dracula, etc.
+
+icons:
+  when: always
+  theme: fancy   # use fancy icons, requires Nerd Font in Alacritty
+
+symlink-arrow: "⇒"
+
+display: visible-only  # hidden files shown only with -a or -A
+
+date: '+%Y-%m-%d %H:%M'

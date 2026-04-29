@@ -1,0 +1,65 @@
+# ==============================================================================
+#  ALACRITTY CONFIG - Gray-Slate Base + Deep Pastel Palette
+# ==============================================================================
+
+[window]
+# 0.92 opacity + Gray background = beautiful frosted effect in Picom
+opacity = 0.92
+padding = { x = 12, y = 12 }
+
+[scrolling]
+history = 5000
+
+# --- FONT CONFIGURATION ---
+[font]
+size = 12.0
+
+[font.normal]
+family = "JetBrains Mono"
+style = "Regular"
+
+[font.bold]
+family = "JetBrains Mono"
+style = "Bold"
+
+[font.italic]
+family = "JetBrains Mono"
+style = "Italic"
+
+[font.bold_italic]
+family = "JetBrains Mono"
+style = "Bold Italic"
+
+# --- THE DEEP PASTEL PALETTE (Adjusted for Readability) ---
+[colors.primary]
+# Moved from #0d0d0d to a much softer Deep Slate Gray
+background = '#1a1b26' 
+foreground = '#d9e0ee' 
+
+[colors.cursor]
+text   = '#1a1b26'
+cursor = '#f5c2e7' # Pastel Pink Beam
+
+[colors.normal]
+black   = '#1e1e2e'
+red     = '#f28fad' 
+green   = '#abe9b3' 
+yellow  = '#fae3b0' 
+blue    = '#96cdfb' 
+magenta = '#f5c2e7' 
+cyan    = '#89dceb' 
+white   = '#d9e0ee'
+
+[colors.bright]
+black   = '#575268'
+red     = '#f28fad'
+green   = '#abe9b3'
+yellow  = '#fae3b0'
+blue    = '#96cdfb'
+magenta = '#f5c2e7'
+cyan    = '#89dceb'
+white   = '#ffffff'
+
+[cursor.style]
+blinking = "Always"
+shape = "Beam"

@@ -1,0 +1,33 @@
+# ==========================================================
+# BETTERLOCKSCREEN - Deep Pastel Edition
+# ==========================================================
+
+# Display configuration
+display_on=0
+span_image=false
+lock_timeout=300
+
+# --- Deep Pastel Colors ---
+# Background inside the ring (Deep Slate)
+inside_color=1a1b26ff
+inside_empty_color=1a1b26ff
+inside_ver_color=89dcebff   # Pastel Cyan when verifying
+inside_wrong_color=f28fadff # Pastel Red on wrong password
+
+# The Ring itself (Pastel Pink)
+ring_color=f5c2e7ff
+ring_empty_color=f5c2e7ff
+ring_ver_color=89dcebff     # Cyan ring when checking
+ring_wrong_color=f28fadff   # Red ring on error
+
+# Line between inside and ring (Hidden for a clean look)
+line_color=00000000
+
+# Typing indicators (The little dots that appear when you type)
+keyhl_color=abe9b3ff        # Pastel Green when typing
+bshl_color=f28fadff         # Pastel Red when backspacing
+
+# Text Colors
+time_color=d9e0eeff         # Soft White
+date_color=d9e0eeff
+login_color=d9e0eeff
