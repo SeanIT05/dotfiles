@@ -1,15 +1,6 @@
 # .dotfiles
 ### Modular Unix Configurations | Low-Level System Architecture
 
-<div align="left">
-  <a href="https://v0-seanvittek.vercel.app">
-    <img src="https://img.shields.io/badge/Portfolio-v0--seanvittek.vercel.app-000000?style=flat-square&logo=vercel" />
-  </a>
-  <a href="mailto:seanvittek05@protonmail.com">
-    <img src="https://img.shields.io/badge/Email-seanvittek05%40protonmail.com-D14836?style=flat-square&logo=protonmail" />
-  </a>
-</div>
-
 This repository contains centralized configurations for Unix-based environments, focusing on performance optimization and low-level system integration.
 
 ### Repository Structure
